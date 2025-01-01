@@ -1,13 +1,13 @@
 // src/App.tsx
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import MainPage from './MainPage';
-import LoginPage from './LoginPage/LoginPage'; // Ensure the path is correct
-import UserModule from './UserModule/UserModule'; // Replace with actual paths
-import Notifications from './Notifications/Notifications'; // Replace with actual paths
-import Calendar from './CalendarView/CalendarView'; // Replace with actual paths
-import Reporting from './ReportingAndAnalyticsModule/ReportingAndAnalyticsModule'; // Replace with actual paths
-import AdminModule from './AdminModule/AdminModule'; // Import the Admin Module
+import MainPage from './MainPage.tsx';
+import LoginPage from './LoginPage/LoginPage.tsx'; // Ensure the path is correct
+import UserModule from './UserModule/UserModule.tsx'; // Replace with actual paths
+import Notifications from './Notifications/Notifications.tsx'; // Replace with actual paths
+import Calendar from './CalendarView/CalendarView.tsx'; // Replace with actual paths
+import Reporting from './ReportingAndAnalyticsModule/ReportingAndAnalyticsModule.tsx'; // Replace with actual paths
+import AdminModule from './AdminModule/AdminModule.tsx'; // Import the Admin Module
 
 const App: React.FC = () => {
   return (
