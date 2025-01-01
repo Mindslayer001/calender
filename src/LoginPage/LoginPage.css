@@ -1,0 +1,145 @@
+/* LoginPage.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #264653, #2a9d8f);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 800px; /* Increased width */
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.login-card,
+.welcome-card,
+.create-account-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+}
+
+.login-header,
+.create-account-header {
+  font-size: 28px;
+  font-weight: bold;
+  color: #264653;
+}
+
+.input-field {
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #2a9d8f;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #e9c46a;
+  box-shadow: 0 0 5px rgba(233, 196, 106, 0.5);
+}
+
+.login-btn,
+.create-account-btn {
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #e76f51;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover,
+.create-account-btn:hover {
+  background-color: #f4a261;
+}
+
+.extra-options {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.forgot-password {
+  color: #2a9d8f;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+  color: #e76f51;
+}
+
+.welcome-message {
+  font-size: 22px;
+  font-weight: bold;
+  color: #264653;
+}
+
+.logout-btn {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #e76f51;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #f4a261;
+}
+
+.back-to-login-btn {
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #264653;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-login-btn:hover {
+  background-color: #2a9d8f;
+}
+
+@media (max-width: 600px) {
+  .login-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .input-field,
+  .login-btn,
+  .create-account-btn,
+  .back-to-login-btn {
+    width: 100%;
+  }
+}

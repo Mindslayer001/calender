@@ -1,0 +1,144 @@
+/* General styling for the entire page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e9ecef; /* Light gray background for the page */
+}
+
+/* Top section to leave space and place the heading outside the container */
+.page-header {
+  background-color: #343a40; /* Dark gray background for contrast */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Container for the admin module */
+.admin-module-container {
+  max-width: 80%; /* Reduced width for a more compact layout */
+  margin: 200px auto; /* Centered with space at the top */
+  background-color: #f8f9fa; /* Light gray for a subtle contrast */
+  border-radius: 15px; /* Softer corners for a modern look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Slight shadow for depth */
+  padding: 50px;
+}
+
+/* Main heading styling */
+.main-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #343a40; /* Dark color for better visibility */
+  margin-bottom: 20px;
+}
+
+/* Content section for form and details */
+.content {
+  display: flex;
+  gap: 40px; /* Adjusted gap for better spacing */
+  flex-wrap: wrap; /* Wrap elements on smaller screens */
+}
+
+/* Styling for the form container */
+.form-container {
+  flex: 1;
+  background: #ffffff; /* White for contrast */
+  padding: 40px; /* Reduced padding for better spacing */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the details container */
+.details-container {
+  flex: 1;
+  background: #ffffff; /* Matches form background */
+  padding: 40px; /* Reduced padding for consistency */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual details box styling */
+.details-box {
+  margin-bottom: 20px;
+  padding: 20px; /* Adjusted padding for balance */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 10px;
+  background-color: #f5f5f5; /* Light gray background inside details */
+}
+
+/* Styling for input fields and text areas */
+.field {
+  margin-bottom: 15px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 5px;
+  color: #495057; /* Subtle dark gray for labels */
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 10px; /* Slightly larger padding for better usability */
+  border: 1px solid #ced4da; /* Neutral border */
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-color: #007bff; /* Highlighted border color on focus */
+  outline: none; /* Removes default focus outline */
+}
+
+/* Styling for subfields (emails and phone numbers) */
+.subfield {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.subfield input {
+  flex: 1;
+}
+
+/* Buttons styling */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+}
+
+button[type="submit"] {
+  background: #007bff; /* Primary blue */
+  color: white;
+}
+
+button[type="button"] {
+  background: #28a745; /* Green for add/remove buttons */
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8; /* Slight fade effect on hover */
+}
+
+button:disabled {
+  background-color: #ccc; /* Gray background for disabled buttons */
+  cursor: not-allowed; /* Not-allowed cursor for better UX */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Adjusted spacing */
+  }
+
+  .admin-module-container {
+    padding: 30px; /* Adjusted padding for smaller screens */
+  }
+}

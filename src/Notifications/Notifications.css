@@ -1,0 +1,141 @@
+.notification-container {
+  max-width: 900px;
+  margin: 5rem auto; /* Increased top margin for more space */
+  padding: 2rem;
+  background-color: #ffffff; /* White background for the container */
+  border-radius: 16px; /* Softer corners for a modern look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Deeper shadow for a premium feel */
+  font-family: 'Poppins', sans-serif; /* Professional font choice */
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  position: relative; /* Allow absolute positioning of the badge */
+}
+
+.header-title {
+  font-size: 2.5rem; /* Larger font for prominence */
+  font-weight: 600;
+  color: #2c3e50; /* Darker color for strong emphasis */
+  text-align: center; /* Center the title */
+  flex: 1; /* Allow the title to take available space */
+}
+
+
+.notification-icon {
+  position: absolute; /* Changed to absolute to place in the top right */
+  top: 0;
+  right: 0;
+}
+
+.badge {
+  position: absolute;
+  top: -8px;
+  right: -8px; /* Adjusted position for visibility */
+  background-color: #e74c3c; /* Vibrant red for urgency */
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.4rem 0.7rem; /* Slightly larger for readability */
+  font-size: 0.9rem;
+  font-weight: bold; /* Bold text for visibility */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns for side-by-side layout */
+  gap: 2rem; /* Generous spacing between cards */
+  margin-top: 2.5rem; /* Increased margin for spacing */
+  padding-top: 1.5rem; /* Added padding for top space */
+  background-color: #f7f9fc; /* Light background for the notifications grid */
+  border-radius: 12px; /* Rounded corners for the grid */
+  padding: 2rem; /* Padding inside the grid for spacing */
+}
+
+.card {
+  padding: 2rem; /* Consistent padding for a clean look */
+  border-radius: 12px;
+  background-color: #ffffff; /* White background for card */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 1px solid #dee2e6; /* Clean border for definition */
+}
+
+
+.card-title {
+  font-size: 1.8rem; /* Slightly larger for emphasis */
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #34495e; /* Muted dark blue for elegance */
+  border-bottom: 2px solid #3498db; /* Accent underline for styling */
+  padding-bottom: 0.5rem;
+}
+
+.company-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.company-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 0; /* Increased padding for clarity */
+  border-bottom: 1px solid #ddd;
+}
+
+.company-item:last-child {
+  border-bottom: none; /* Removes border from the last item */
+}
+
+.company-name {
+  font-weight: 500;
+  color: #2c3e50; /* Strong color for visibility */
+}
+
+.company-date {
+  font-weight: 400;
+  color: #7f8c8d; /* Subtle gray for less emphasis */
+}
+
+.no-data {
+  text-align: center;
+  color: #95a5a6; /* Neutral gray for empty state */
+  font-style: italic;
+}
+
+.add-notification-button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem; /* Adjusted padding for a bolder button */
+  background-color: #007bff; /* Professional blue tone */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-notification-button:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+  transform: translateY(-2px); /* Subtle lift effect */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 2rem; /* Adjusted font size for smaller screens */
+  }
+
+  .card {
+    padding: 1.5rem; /* Reduced padding for smaller screens */
+  }
+
+  .add-notification-button {
+    width: 100%; /* Full-width button for better usability */
+    margin-top: 1.5rem;
+  }
+}

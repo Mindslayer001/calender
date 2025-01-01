@@ -1,0 +1,59 @@
+/* index.css */
+
+/* Main page container */
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f7f9fc; /* Light background color */
+  font-family: 'Arial', sans-serif; /* Font family */
+  color: #333; /* Dark text color for better readability */
+}
+
+/* Main heading */
+.main-page h1 {
+  font-size: 2.5rem; /* Large heading */
+  margin-bottom: 2rem; /* Space below heading */
+  color: #4A90E2; /* Primary color */
+}
+
+/* Modules container */
+.modules {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 1.5rem; /* Space between modules */
+  width: 80%; /* Width of the module container */
+  max-width: 1200px; /* Max width */
+}
+
+/* Individual module style */
+.module {
+  background-color: white; /* White background for modules */
+  border: 1px solid #e1e4e8; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 1.5rem; /* Padding inside the module */
+  text-align: center; /* Centered text */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.module:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+/* Module heading */
+.module h2 {
+  font-size: 1.5rem; /* Heading size */
+  margin: 0.5rem 0; /* Margin around the heading */
+  color: #333; /* Dark color */
+}
+
+/* Module paragraph */
+.module p {
+  font-size: 1rem; /* Font size for description */
+  color: #666; /* Gray color for text */
+}

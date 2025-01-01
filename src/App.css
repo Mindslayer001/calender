@@ -1,0 +1,50 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.main-page {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.modules {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.module {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.module:hover {
+  background-color: #eaeaea;
+  transform: scale(1.02);
+}
+
+.module h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.module p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+h1 {
+  color: #222;
+  font-size: 24px;
+}

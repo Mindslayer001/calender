@@ -1,0 +1,98 @@
+.dashboard-container {
+  padding: 150px;
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 50px auto; /* Center horizontally and leave space */
+  margin-top: 600px; /* Space at the top of the page */
+ 
+}
+
+.header {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 40px;
+}
+
+.filter-section label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.filter-section button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.chart-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.chart-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  margin: 10px;
+}
+
+.chart-card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+.download-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.download-section button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
