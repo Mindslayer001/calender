@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.819a5abd.css",
-    "main.js": "/react-gh-pages/static/js/main.d0c0a7af.js",
-    "static/js/488.2b54dbb7.chunk.js": "/react-gh-pages/static/js/488.2b54dbb7.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.819a5abd.css.map": "/react-gh-pages/static/css/main.819a5abd.css.map",
-    "main.d0c0a7af.js.map": "/react-gh-pages/static/js/main.d0c0a7af.js.map",
-    "488.2b54dbb7.chunk.js.map": "/react-gh-pages/static/js/488.2b54dbb7.chunk.js.map"
+    "main.css": "/calender/static/css/main.819a5abd.css",
+    "main.js": "/calender/static/js/main.979e8992.js",
+    "static/js/488.2b54dbb7.chunk.js": "/calender/static/js/488.2b54dbb7.chunk.js",
+    "index.html": "/calender/index.html",
+    "main.819a5abd.css.map": "/calender/static/css/main.819a5abd.css.map",
+    "main.979e8992.js.map": "/calender/static/js/main.979e8992.js.map",
+    "488.2b54dbb7.chunk.js.map": "/calender/static/js/488.2b54dbb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.819a5abd.css",
-    "static/js/main.d0c0a7af.js"
+    "static/js/main.979e8992.js"
   ]
 }
