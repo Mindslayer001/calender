@@ -1,7 +1,7 @@
 {
   "name": "calender",
   "version": "0.1.0",
-  "homepage": "https://mindslayer001.github.io/calender",
+  "homepage": "https://mindslayer001.github.io/calender.git",
   "private": true,
   "dependencies": {
     "@fullcalendar/daygrid": "^6.1.15",
